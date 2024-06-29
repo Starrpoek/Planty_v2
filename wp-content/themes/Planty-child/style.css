@@ -1,0 +1,182 @@
+/*
+ Theme Name:   Planty-child
+ Theme URI:    http://example.com/planty-child/
+ Description:  Thème Planty-child basé sur le thème parent de GeneratePress
+ Author:       Starrpoek
+ Author URI:   http://example.com
+ Template:     generatepress
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         boissons énérgisantes, fraise, pamplemousse, framboise, citron
+ Text-domain:  Planty
+*/
+/* Police du site */
+body {
+    width: 90rem;
+    font-family: 'Syne', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Syne', sans-serif;
+}
+/* CSS du header */
+.inside-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90rem;
+    height: 5rem;
+    padding: 0;
+}
+.site-logo {
+    margin-left: 2.71rem;
+}
+.menu-menu {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    padding: 0;
+}
+li.menu-item a {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+#menu-item-37 a {
+    padding: 1.90rem 3.80rem;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFFFFF;
+}
+#menu-item-37 {
+    background-color: #DC9F96;
+    width: 14.75rem;
+    height: 5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu-item-38 a {
+    margin-right: 3rem;
+    font-size: 13px;
+    font-weight: 700;
+}
+#menu-item-39 a {
+    margin-right: 3.81rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+.logged-out #menu-item-39 {
+    display: none;
+}
+/* CSS du footer */
+.site-footer {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+.site-footer .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.site-footer p {
+    margin: 0;
+}
+.site-footer a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Cacher les copyright */
+.copyright-bar {
+    display: none;
+}
+.inside-site-info {
+    display: none;
+}
+/* Cacher la zone de wideget du theme parent */
+.widget-area.sidebar.is-right-sidebar#right-sidebar {
+    display: none;
+}
+/*Page Commander*/
+.command-line {
+    width: 53.8rem;
+    color: #FFFFFF;
+}
+p {
+    margin: 0;
+}
+.command-title {
+    padding: 4.3rem 0;
+    font-weight: 800;
+}
+.command-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    align-self: flex-start;
+    padding: 2.5rem 0 2.5rem 18rem;
+}
+.command-bloc-2 {
+    width: 53.75rem !important;
+    margin-bottom: 2.44rem !important;
+}
+.command-bloc-3 {
+    width: 53.75rem !important;
+    padding-top: 3.31rem;
+}
+.command-info-title,
+.command-adress-title {
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 1.81rem;
+}
+.custom-info-form .input-field {
+    width: 24rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 4.2rem;
+}
+.command-button {
+    margin-top: -1.45rem !important;
+    margin-bottom: 6rem !important;
+}
+.command-button .wp-block-button__link {
+    width: 12.38rem !important;
+    height: 3.5rem !important;
+    border-radius: 5px !important;
+    background-color: #E0B9B4 !important;
+    color: #FFFFFF !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 15px !important;
+    font-weight: 400 !important;
+    text-align: center !important;
+}
+.wpcf7 input.command-qte-numb {
+    width: 2.44rem;
+    height: 3.5rem;
+    padding: 0;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+.wpcf7 input[type="number"]::-webkit-outer-spin-button,
+.wpcf7 input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
