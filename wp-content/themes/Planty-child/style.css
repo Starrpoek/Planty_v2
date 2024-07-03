@@ -131,7 +131,7 @@ li.menu-item a {
 .img1 {
     position: absolute;
     z-index: 1;
-    top: 96%;
+    top: 31.2rem;
     right: 50.35%;
     width: 21.82rem;
     height: 25.00rem;
@@ -139,7 +139,7 @@ li.menu-item a {
 .img3 {
     position: absolute;
     z-index: 1;
-    top: 96%;
+    top: 31.20rem;
     left: 49.65%;
     width: 21.82rem;
     height: 25.00rem;
@@ -147,14 +147,15 @@ li.menu-item a {
 .img2 {
     position: absolute;
     z-index: 2;
-    top: 68%;
+    top: 22rem;
 }
 .home-bloc-2 {
     position: absolute;
     height: 25.94rem;
-    left: 33%;
+    left: 34%;
 }
 .wp-image-330 {
+    width: 100%;
     height: 25.94rem !important;
 }
 .bloc-2-title {
@@ -204,6 +205,7 @@ li.menu-item a {
     height: 39.87rem;
 }
 .wp-image-458 {
+    width: 100%;
     height: 39.875rem;
 }
 .bloc-4-title {
