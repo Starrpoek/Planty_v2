@@ -13,7 +13,7 @@
 */
 /* Police du site */
 body {
-    width: 90rem;
+    width: 100%;
     font-family: 'Syne', sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90rem;
+    width: 100%;
     height: 5rem;
     padding: 0;
 }
@@ -112,19 +112,167 @@ li.menu-item a {
 .widget-area.sidebar.is-right-sidebar#right-sidebar {
     display: none;
 }
-/*Page Commander*/
+/*Page Nous rencontrer */
+.site-main .wp-block-group__inner-container {
+    padding: 0;
+}
+.page-id-22 body {
+    position: relative;
+}
+.meet-page {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+}
+.meet-head {
+    max-width: 1440px !important;
+    width: 100%;
+    height: 20.69rem;
+}
+.meet-head-bloc {
+    margin-top: 11.6rem !important;
+    height: 9rem;
+}
+.meet-head-bloc-title {
+    color: #d2776a;
+    width: 42.5rem;
+    font-size: 38px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.meet-head-bloc-text {
+    width: 42rem;
+    height: 4.5rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: normal;
+}
+.meet-team-decor {
+    top: 25.7rem;
+    width: 100%;
+    height: 34.94rem;
+}
+.meet-team {
+    position: absolute;
+    top: 20.69rem;
+    width: 100%;
+    max-width: 1440px !important;
+    height: 25.94rem !important;
+    z-index: 1;
+}
+.meet-team-title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+    font-style: normal;
+    margin-bottom: 3rem !important;
+    margin-top: 8.69rem !important;
+}
+.meet-team-bloc {
+    margin-bottom: 5rem !important;
+}
+.meet-team-bloc-1 {
+    margin-left: 20rem !important;
+}
+.meet-team-bloc-3 {
+    margin-right: 20rem !important;
+}
+/* Formulaire de contact */
+.meet-form-bloc-colonn {
+    height: 60.25rem !important;
+}
+.meet-form-title {
+    margin-top: 4.12rem !important;
+}
+.meet-form {
+    height: 38.31rem !important;
+}
+.meet-form p {
+    margin-bottom: 1.37rem;
+}
+#wpcf7-f5-p22-o1 input[type="text"],
+#wpcf7-f5-p22-o1 input[type="email"] {
+    width: 24rem;
+    height: 4.5rem;
+    border-radius: 7px;
+    margin-top: 0.81rem;
+}
+#wpcf7-f5-p22-o1 textarea {
+    width: 24rem;
+    height: 14.8rem;
+    border-radius: 7px;
+    margin-top: 0.81rem;
+}
+#wpcf7-f5-p22-o1 label {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+}
+#wpcf7-f5-p22-o1 input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 12.38rem;
+    height: 3.5rem;
+    background-color: #E0B9B4;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0.13rem !important;
+    margin-bottom: 2.62rem;
+}
+/* Empêche le redimensionnement */
+#wpcf7-f5-p22-o1 textarea.wpcf7-textarea {
+    resize: none;
+}
+/*Supression spinner*/
+.wpcf7 .wpcf7-spinner {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+.wpcf7-response-output[aria-hidden="true"] {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+/* img page "nous rencontrer" */
+.meet-head-plant {
+    position: absolute;
+    z-index: 1;
+    top: 3.831%;
+    left: 9.93%;
+}
+.meet-team-plant {
+    position: absolute;
+    z-index: 1;
+    top: 36%;
+    left: 82.5%;
+}
+.meet-form-plant {
+    position: absolute;
+    z-index: 0;
+    top: 80%;
+    left: 30.7%;
+}
+/*Page Commander */
+.command-bloc-1 {
+    width: 100%;
+}
 .command-line {
     width: 53.8rem;
     color: #FFFFFF;
-}
-p {
-    margin: 0;
 }
 .command-title {
     padding: 4.3rem 0;
     font-weight: 800;
 }
 .command-subtitle {
+    max-width: 1440px !important;
     font-size: 30px;
     font-weight: 700;
     align-self: flex-start;
@@ -167,6 +315,7 @@ p {
     font-weight: 400 !important;
     text-align: center !important;
 }
+/* Qté boissons à commander */
 .wpcf7 input.command-qte-numb {
     width: 2.44rem;
     height: 3.5rem;
