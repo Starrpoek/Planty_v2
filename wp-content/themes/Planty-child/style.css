@@ -112,6 +112,109 @@ li.menu-item a {
 .widget-area.sidebar.is-right-sidebar#right-sidebar {
     display: none;
 }
+/* Page Home */
+.page-id-20 body {
+    position: relative;
+    width: 100%;
+    height: 182rem;
+    max-width: 90rem;
+}
+.home-bloc-1 {
+    height: 53rem;
+}
+.bloc-1-title {
+    width: 48.81rem;
+    height: 5.75rem;
+    margin-top: 6rem !important;
+    margin-bottom: 7.44rem !important;
+}
+.img1 {
+    position: absolute;
+    z-index: 1;
+    top: 96%;
+    right: 50.35%;
+    width: 21.82rem;
+    height: 25.00rem;
+}
+.img3 {
+    position: absolute;
+    z-index: 1;
+    top: 96%;
+    left: 49.65%;
+    width: 21.82rem;
+    height: 25.00rem;
+}
+.img2 {
+    position: absolute;
+    z-index: 2;
+    top: 68%;
+}
+.home-bloc-2 {
+    position: absolute;
+    height: 25.94rem;
+    left: 33%;
+}
+.wp-image-330 {
+    height: 25.94rem !important;
+}
+.bloc-2-title {
+    margin-top: 7rem !important;
+    margin-bottom: 3.06rem !important;
+}
+.bloc-2-p {
+    width: 31.06rem;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 5.13rem !important;
+}
+.home-bloc-3 {
+    height: 54.31rem;
+    gap: 0 !important;
+}
+.bloc-3-title {
+    width: 17.937rem;
+    margin-top: 3.63rem !important;
+    margin-bottom: 0.44rem !important;
+}
+.bloc-3-p {
+    line-height: normal;
+    margin-bottom: 3rem !important;
+}
+.bloc-3-row1 {
+    margin-bottom: 2.5rem !important;
+}
+.row1-fraise {
+    margin-right: 1.87rem !important;
+}
+.row2-framboise {
+    margin-right: 1.87rem !important;
+}
+.bloc-3-button {
+    justify-content: center;
+    width: 12.375rem !important;
+    height: 3.4375rem !important;
+    margin-top: 3.94rem !important;
+}
+.wp-element-button {
+    height: 3.4375rem;
+    align-content: center;
+}
+.home-bloc-4 {
+    position: absolute;
+    height: 39.87rem;
+}
+.wp-image-458 {
+    height: 39.875rem;
+}
+.bloc-4-title {
+    width: 36.375rem;
+    margin-top: 8.31rem !important;
+}
+.bloc-4-fatiha-bloctext,
+.bloc-4-vero-bloctext,
+.bloc-4-marc-bloctext {
+    width: 12.25rem;
+}
 /*Page Nous rencontrer */
 .site-main .wp-block-group__inner-container {
     padding: 0;
