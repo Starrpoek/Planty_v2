@@ -92,7 +92,6 @@ li.menu-item a {
     text-align: center;
     position: relative;
     bottom: 0;
-    left: 0;
 }
 .site-footer .footer-content {
     display: flex;
@@ -484,8 +483,67 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 /* Format laptop */
 @media (max-width: 1024px) {
+    .page-id-20 {
+        height: 150rem !important;
+    }
+    .home-bloc-1 {
+        height: 45.75rem
+    }
+    .bloc-1-title {
+        margin: 3rem 0 3rem 0 !important;
+    }
+    .img2 {
+        top: 14.75rem;
+    }
+    .img1,
+    .img3 {
+        top: 23.95rem;
+    }
+    .wp-image-330 {
+        height: 18.69rem !important;
+    }
     .home-bloc-2 {
         width: 64rem;
+        height: 18.69rem;
+    }
+    .home-bloc-3 {
+        height: 47.06rem;
+    }
+    .page-id-20 .wp-image-160 {
+        height: 14rem;
+    }
+    .page-id-20 .wp-image-161 {
+        height: 14rem;
+    }
+    .page-id-20 .wp-image-162 {
+        height: 14rem;
+    }
+    .page-id-20 .wp-image-163 {
+        height: 14rem;
+    }
+    .bloc-3-button {
+        margin-top: 1rem !important;
+    }
+    .home-bloc-4 {
+        width: 1024px;
+        height: 30rem;
+    }
+    .bloc-4-title {
+        margin-top: 1.5rem !important;
+    }
+    .wp-image-169 {
+        margin-left: 0.5rem;
+    }
+    .bloc-4-marc {
+        margin-right: 0.5rem !important;
+    }
+    .bloc-4-fatiha-bloctext,
+    .bloc-4-vero-bloctext,
+    .bloc-4-marc-bloctext {
+        width: 7rem;
+    }
+    .wp-image-458 {
+        height: 30rem !important;
     }
     .meet-head-plant {
         top: 1%;
@@ -502,10 +560,51 @@ input[type="number"]::-webkit-inner-spin-button {
         width: 190px;
         height: auto;
     }
+    .site-footer {
+        top: 0rem;
+    }
 }
 /* Format tablette */
 @media (max-width: 768px) {
-
+    .bloc-1-title {
+        width: 48rem;
+    }
+    .home-bloc-2 {
+        width: 48rem;
+        height: 18.69rem;
+    }
+    .page-id-20 .wp-image-160 {
+        width: 20rem;
+    }
+    .page-id-20 .wp-image-161 {
+        width: 20rem;
+    }
+    .page-id-20 .wp-image-162 {
+        width: 20rem;
+    }
+    .page-id-20 .wp-image-163 {
+        width: 20rem;
+    }
+    .home-bloc-4 {
+        width: 768px;
+        height: 30rem;
+    }
+    .bloc-4-marc-bloctext,
+    .bloc-4-fatiha-bloctext,
+    .bloc-4-vero-bloctext {
+        align-items: center !important;
+    }
+    .bloc-4-marc-title,
+    .bloc-4-fatiha-title,
+    .bloc-4-vero-title {
+        font-size: 20px !important;
+    }
+    .bloc-4-marc-p,
+    .bloc-4-fatiha-p,
+    .bloc-4-vero-p {
+        font-size: 10px !important;
+        text-align: center;
+    }
 }
 
 /* Format smartphone */
