@@ -425,7 +425,7 @@ li.menu-item a {
 }
 .command-bloc-2 {
     width: 53.75rem !important;
-    margin-bottom: 2.44rem !important;
+    margin-bottom: 2.5rem !important;
 }
 .command-bloc-3 {
     width: 53.75rem !important;
@@ -458,16 +458,27 @@ li.menu-item a {
     color: #FFFFFF !important;
 }
 /* Qté boissons à commander */
-.wpcf7 input.command-qte-numb {
-    width: 2.44rem;
-    height: 3.5rem;
-    padding: 0;
-    margin-top: 1rem;
-    box-sizing: border-box;
-    text-align: center;
+.custom-input {
+    width: 12.06rem;
 }
-.wpcf7 input[type="number"]::-webkit-outer-spin-button,
-.wpcf7 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+.wpcf7 input.command-qte-numb {
+    width: 5.041rem;
+    margin-right: 0.916rem !important;
+    border-radius: 5px;
+}
+.wpcf7 .button-ok {
+    width: 6.105rem;
+    background-color: #E0B9B4;
+    border-radius: 5px;
+}
+.wpcf7 .button-ok:hover {
+    background-color: #C02E44;
+    color: #FFFFFF;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: spin-button;
+    opacity: 1;
+    display: inline-block;
+    visibility: visible;
 }
