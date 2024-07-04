@@ -40,8 +40,6 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 li.menu-item a {
-    font-size: 16px;
-    font-weight: 400;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,13 +61,23 @@ li.menu-item a {
     justify-content: center;
     align-items: center;
 }
+#menu-item-37:hover {
+    background-color: #C02E44;
+}
 #menu-item-38 a {
     margin-right: 3rem;
+    font-size: 16px;
+    font-weight: 400;
+}
+#menu-item-38 a:hover,
+#menu-item-39 a:hover {
     font-size: 13px;
     font-weight: 700;
+    color: #000000;
+    padding-right: 19px;
 }
 #menu-item-39 a {
-    margin-right: 3.81rem;
+    margin-right: 4.01rem;
     font-size: 16px;
     font-weight: 400;
 }
