@@ -151,8 +151,10 @@ li.menu-item a {
 }
 .home-bloc-2 {
     position: absolute;
+    left: 0%;
+    right: 0%;
+    width: 90rem;
     height: 25.94rem;
-    left: 34%;
 }
 .wp-image-330 {
     width: 100%;
@@ -217,6 +219,13 @@ li.menu-item a {
 .bloc-4-marc-bloctext {
     width: 12.25rem;
 }
+/* Responsive */
+@media (min-width: 1440px) {
+    .home-body, .home-bloc-1, .home-bloc-2, .home-bloc-3, .home-bloc-4 {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
 /*Page Nous rencontrer */
 .site-main .wp-block-group__inner-container {
     padding: 0;
@@ -257,6 +266,10 @@ li.menu-item a {
     width: 100%;
     height: 34.94rem;
 }
+.meet-team-decor .wp-image-330 {
+    width: 90rem !important;
+    height: 34.625rem !important;
+}
 .meet-team {
     position: absolute;
     top: 20.69rem;
@@ -290,7 +303,9 @@ li.menu-item a {
     margin-top: 4.12rem !important;
 }
 .meet-form {
+    position: relative;
     height: 38.31rem !important;
+    z-index: 1;
 }
 .meet-form p {
     margin-bottom: 1.37rem;
@@ -365,16 +380,25 @@ li.menu-item a {
     left: 30.7%;
 }
 /*Page Commander */
+.page-id-24 p {
+    margin: 0;
+}
 .command-bloc-1 {
     width: 100%;
+    gap: 0;
 }
 .command-line {
     width: 53.8rem;
+    border: 0;
+    height: 1px;
     color: #FFFFFF;
 }
 .command-title {
-    padding: 4.3rem 0;
-    font-weight: 800;
+    width: 42.5rem;
+    padding: 4.31rem 0;
+    font-style: normal;
+    line-height: normal;
+    text-transform: uppercase;
 }
 .command-subtitle {
     max-width: 1440px !important;
@@ -393,18 +417,21 @@ li.menu-item a {
 }
 .command-info-title,
 .command-adress-title {
-    font-size: 30px;
-    font-weight: 700;
     padding-bottom: 1.81rem;
+    font-style: normal;
+    line-height: normal;
+}
+.command-bloc-3 p {
+    margin-bottom: 1.88rem;
 }
 .custom-info-form .input-field {
     width: 24rem;
     height: 4.5rem;
     border-radius: 0.5rem;
-    margin-bottom: 4.2rem;
+    margin-top: 0.81rem;
 }
 .command-button {
-    margin-top: -1.45rem !important;
+    margin-top: 0.87rem !important;
     margin-bottom: 6rem !important;
 }
 .command-button .wp-block-button__link {
