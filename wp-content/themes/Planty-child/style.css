@@ -566,6 +566,23 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 /* Format tablette */
 @media (max-width: 768px) {
+    .main-nav {
+     background-color: #ECE2DA !important;
+     opacity: 80% !important;
+    }
+    .menu-item-38 a,
+    .menu-item-39 a {
+        font-size: 20px !important;
+    }
+    .menu-item-38:hover {
+        background-color: #DC9F96 !important;
+    }
+    .menu-item-39:hover {
+        background-color: #DC9F96 !important;
+    }
+    .menu-item-37 {
+    margin-left: 14.5rem;
+    }
     .bloc-1-title {
         width: 48rem;
     }
@@ -686,9 +703,144 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 /* Format mobile M */
 @media (max-width: 375px) {
-
+    .page-id-20 {
+        height: 172rem !important;
+    }
+    .bloc-1-title {
+        width: 23rem;
+        font-size: 20px !important;
+    }
+    .img1 {
+        width: 11rem;
+        height: 25rem;
+    }
+    .img2 {
+        width: 16rem;
+        height: 35rem;
+    }
+    .img3 {
+        width: 11rem;
+        height: 25rem;
+    }    
+    .page-id-20 .wp-image-51 {
+        height: 50%;
+    }
+    .page-id-20 .wp-image-486 {
+        height: 50%;
+    }
+    .home-bloc-2 {
+        width: 23rem;
+    }
+    .bloc-2-p {
+        width: 23rem;
+    }
+    .home-bloc-4 {
+        width: 23rem;
+    }
+    .bloc-4-title {
+        width: 23rem;
+    }
+    .bloc-4-bloc {
+        width: 23.5rem !important;
+    }
+    .home-foot {
+        width: 23rem;
+    }
+    .wp-image-163 {
+        width: 23rem;
+    }
 }
 /* Format mobile S */
 @media (max-width: 320px) {
-
+    .main-nav {
+        background-color: #ECE2DA !important;
+        opacity: 80% !important;
+        margin-left: 1rem;
+        margin-right: 0.85rem;
+       }
+       .menu-item-38 a,
+       .menu-item-39 a {
+        padding-left: 2rem;
+        margin-right: 0 !important;
+       }
+       .menu-item-37 {
+       margin-left: 2rem;
+       }
+    .page-id-20 {
+        height: 172rem !important;
+    }
+    .page-id-20 p {
+        font-size: 14px !important;
+    }
+    .bloc-1-title {
+        width: 19rem;
+        font-size: 20px !important;
+    }
+    .img1 {
+        width: 9rem;
+        height: 25rem;
+    }
+    .img2 {
+        width: 16rem;
+        height: 35rem;
+    }
+    .img3 {
+        width: 9rem;
+        height: 25rem;
+    }    
+    .page-id-20 .wp-image-51 {
+        height: 40%;
+    }
+    .page-id-20 .wp-image-486 {
+        height: 40%;
+    }
+    .page-id-20 .wp-image-502 {
+        height: 70%;
+    }
+    .home-bloc-2 {
+        width: 20rem;
+    }
+    .bloc-2-title {
+        font-size: 18px !important;
+        margin-top: 9rem !important;
+    }
+    .bloc-2-p {
+        width: 18rem;
+    }
+    .wp-image-330 {
+        height: 22rem !important;
+    }
+    .bloc-3-title {
+        font-size: 18px !important;
+    }
+    .home-bloc-4 {
+        width: 20rem;
+    }
+    .bloc-4-title {
+        font-size: 18px !important;
+        width: 20rem;
+    }
+    .bloc-4-bloc {
+        width: 20rem !important;
+    }
+    .bloc-4-fatiha-title,
+    .bloc-4-vero-title,
+    .bloc-4-marc-title {
+        font-size: 18px !important;
+    }
+    .home-foot {
+        width: 20rem;
+    }
+    .page-id-20 .wp-image-160 {
+        width: 18rem;
+    }
+    .page-id-20 .wp-image-161 {
+        width: 18rem;
+    }
+    .page-id-20 .wp-image-162 {
+        width: 18rem;
+    }
+    .page-id-20 .wp-image-163 {
+        width: 18rem;
+    }
 }
