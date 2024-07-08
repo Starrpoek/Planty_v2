@@ -430,32 +430,6 @@ li.menu-item a {
     width: 53.75rem !important;
     padding-top: 3.31rem;
 }
-.command-info-title,
-.command-adress-title {
-    padding-bottom: 1.81rem;
-    font-style: normal;
-    line-height: normal;
-}
-.command-bloc-3 p {
-    margin-bottom: 1.88rem;
-}
-.custom-info-form .input-field {
-    width: 24rem;
-    height: 4.5rem;
-    border-radius: 0.5rem;
-    margin-top: 0.81rem;
-}
-.command-button {
-    margin-top: 0.87rem !important;
-    margin-bottom: 6rem !important;
-}
-.command-button .wp-block-button__link {
-    width: 12.38rem !important;
-}
-.command-button .wp-block-button__link:hover {
-    background-color: #C02E44 !important;
-    color: #FFFFFF !important;
-}
 /* Qté boissons à commander */
 .custom-input {
     width: 12.06rem;
@@ -480,6 +454,64 @@ input[type="number"]::-webkit-inner-spin-button {
     opacity: 1;
     display: inline-block;
     visibility: visible;
+}
+/* Formulaire Page commander v2 */
+.command-form {
+    width: 53.75rem;
+}
+.command-bloc-3 p {
+    margin-bottom: 1.88rem;
+}
+.command-info-title,
+.command-adress-title {
+    padding-bottom: 1.81rem;
+    font-style: normal;
+    line-height: normal;
+}
+.command-bloc-3-rangee {
+    gap: 12rem;
+}
+.command-form .wpcf7-text {
+    width: 24rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.81rem;
+}
+.formulaire .row {
+    display: flex;
+    flex-wrap: wrap; /* Permet à la ligne de se plier sur les petits écrans */
+}
+.formulaire .row {
+    justify-content: space-between !important;
+    gap: 5.56rem;
+}
+.formulaire .col {
+    flex: 1;
+}
+.command-form label {
+    display: block;
+    font-size: 20px !important;
+    font-weight: 400;
+    font-family: 'Syne', sans-serif !important;
+}
+.command-form-line {
+    position: absolute;
+    z-index: 1;
+    top: 43.75rem;
+    left: 50%;
+}
+.command-form .wpcf7-submit {
+    height: 3.43rem !important;
+    width: 12.38rem !important;
+    margin-top: 0.87rem !important;
+    margin-bottom: 4rem !important;
+    margin-left: 20.75rem !important;
+    border-radius: 0.3125rem !important;
+    background-color: #E0B9B4 !important;
+}
+.command-form input {
+    font-family: 'Syne', sans-serif !important;
+    font-size: 15px !important;
 }
 /* Format laptop */
 @media (max-width: 1024px) {
