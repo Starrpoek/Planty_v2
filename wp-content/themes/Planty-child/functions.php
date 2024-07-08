@@ -13,13 +13,23 @@ function ajouter_police_syne(){
 }
 add_action('wp_enqueue_scripts', 'ajouter_police_syne');
 
+/* Ajout du hook de personalisation du header */
+function add_logged_in_body_class($classes) {
+    if (is_user_logged_in()) {
+        $classes[] = 'user-logged-in';
+    } else {
+        $classes[] = 'user-logged-out';
+    }
+    return $classes;
+}
+add_filter('body_class', 'add_logged_in_body_class');
 
 /* Ajout du hook de personnalisation du footer */
 function my_custom_footer() {
     ?>
     <footer class="site-footer">
         <div class="footer-content">
-            <p><a href= "<?php echo esc_url(home_url('/mentions-legales')); ?>">Mentions légales</a></p>
+            <p><a href= "<?php echo esc_url(home_url('/')); ?>">Mentions légales</a></p>
         </div>
     </footer>
     <?php
