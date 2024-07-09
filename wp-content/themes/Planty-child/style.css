@@ -456,6 +456,18 @@ input[type="number"]::-webkit-inner-spin-button {
     visibility: visible;
 }
 /* Formulaire Page commander v2 */
+.champs-de-saisie {
+    display: flex !important;
+    flex-direction: row !important;
+}
+.button-ok1,
+.button-ok2,
+.button-ok3,
+.button-ok4 {
+    width: 6.105rem !important;
+    background-color: #E0B9B4 !important;
+    border-radius: 5px !important;
+}
 .command-form {
     width: 53.75rem;
 }
@@ -500,7 +512,7 @@ input[type="number"]::-webkit-inner-spin-button {
     top: 43.75rem;
     left: 50%;
 }
-.command-form .wpcf7-submit {
+.command-form .button-command {
     height: 3.43rem !important;
     width: 12.38rem !important;
     margin-top: 0.87rem !important;
