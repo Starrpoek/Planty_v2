@@ -21,10 +21,6 @@ body {
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Syne', sans-serif;
 }
-a:visited {
-    color: #000000 !important;
-    text-decoration: none !important;
-}
 /* CSS du header */
 .inside-header {
     display: flex;
@@ -42,6 +38,9 @@ a:visited {
     align-items: center;
     height: 5rem;
     padding: 0;
+}
+.menu-menu a:visited {
+    color: #000000 !important;
 }
 li.menu-item a {
     display: flex;
@@ -84,8 +83,12 @@ li.menu-item a {
 .menu-item-39 a:hover {
     font-size: 13px;
     font-weight: 700;
-    color: #000000;
+    color: #000000 !important;
     padding-right: 19px;
+}
+#menu-item-38 a:visited,
+.menu-item-39 a:visited {
+    color: #000000 !important;
 }
 .menu-item-39 {
     order: 2;
