@@ -57,6 +57,7 @@ li.menu-item a {
     color: #FFFFFF;
 }
 #menu-item-37 {
+    order: 3;
     background-color: #DC9F96;
     width: 14.75rem;
     height: 5rem;
@@ -71,24 +72,31 @@ li.menu-item a {
 #menu-item-37:hover {
     background-color: #C02E44;
 }
+#menu-item-38 {
+    order: 1;
+}
 #menu-item-38 a {
     margin-right: 3rem;
     font-size: 16px;
     font-weight: 400;
 }
 #menu-item-38 a:hover,
-#menu-item-39 a:hover {
+.menu-item-39 a:hover {
     font-size: 13px;
     font-weight: 700;
     color: #000000;
     padding-right: 19px;
 }
-#menu-item-39 a {
+.menu-item-39 {
+    order: 2;
+    max-width: 9.37rem !important;
+}
+.menu-item-39 a {
     margin-right: 4.01rem;
     font-size: 16px;
     font-weight: 400;
 }
-.user-logged-out #menu-item-39 {
+.user-logged-out .menu-item-39 {
     display: none;
 }
 /* CSS du footer */
