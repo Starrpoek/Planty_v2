@@ -308,29 +308,33 @@ li.menu-item a {
 }
 /* Formulaire de contact */
 .meet-form-bloc-colonn {
-    height: 60.25rem !important;
+    height: 60.25rem;
 }
 .meet-form-title {
     margin-top: 4.12rem !important;
+    margin-bottom: 2.88rem !important;
 }
 .meet-form {
-    position: relative;
+    position: absolute;
+    left: 36.66%;
+    top: 56%;
     height: 38.31rem !important;
     z-index: 1;
 }
 .meet-form p {
+    font-family: 'Syne', sans-serif;
     margin-bottom: 1.37rem;
 }
 #wpcf7-f5-p22-o1 input[type="text"],
 #wpcf7-f5-p22-o1 input[type="email"] {
     width: 24rem;
-    height: 4.5rem;
+    height: 4.45rem;
     border-radius: 7px;
     margin-top: 0.81rem;
 }
 #wpcf7-f5-p22-o1 textarea {
     width: 24rem;
-    height: 14.8rem;
+    height: 11.55rem;
     border-radius: 7px;
     margin-top: 0.81rem;
 }
@@ -352,7 +356,6 @@ li.menu-item a {
     border: none;
     border-radius: 5px;
     margin-top: 0.13rem !important;
-    margin-bottom: 2.62rem;
 }
 #wpcf7-f5-p22-o1 input[type="submit"]:hover {
     background-color: #C02E44 !important;
@@ -361,19 +364,6 @@ li.menu-item a {
 /* Empêche le redimensionnement */
 #wpcf7-f5-p22-o1 textarea.wpcf7-textarea {
     resize: none;
-}
-/*Supression spinner*/
-.wpcf7 .wpcf7-spinner {
-    display: none !important;
-    width: 0 !important;
-    height: 0 !important;
-}
-.wpcf7-response-output[aria-hidden="true"] {
-    display: none !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 /* img page "nous rencontrer" */
 .meet-head-plant {
@@ -391,8 +381,12 @@ li.menu-item a {
 .meet-form-plant {
     position: absolute;
     z-index: 0;
-    top: 80%;
+    top: 76.5%;
     left: 30.7%;
+}
+.wp-image-63 {
+    height: 8.18rem !important;
+    margin-top: 3.19rem;
 }
 /*Page Commander */
 .page-id-24 p {
@@ -526,9 +520,19 @@ li.menu-item a {
     border-radius: 0.3125rem !important;
     background-color: #E0B9B4 !important;
 }
+.button-command:hover {
+    background-color: #C02E44 !important;
+    color: #FFFFFF !important;
+}
+.wpcf7-not-valid-tip {
+    color: #FFFFFF;
+}
 .command-form input {
     font-family: 'Syne', sans-serif !important;
     font-size: 15px !important;
+}
+.wpcf7-response-output {
+    text-align: center;
 }
 /* Masque les boutons d'incrémentation/de décrémentation */
 input[type=number]::-webkit-inner-spin-button,
