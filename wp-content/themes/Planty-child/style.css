@@ -21,6 +21,10 @@ body {
 h1, h2, h3, h4, h5, h6, p {
     font-family: 'Syne', sans-serif;
 }
+a:visited {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
 /* CSS du header */
 .inside-header {
     display: flex;
@@ -60,6 +64,9 @@ li.menu-item a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#menu-item-37 a {
+    color: #FFFFFF !important;
 }
 #menu-item-37:hover {
     background-color: #C02E44;
@@ -209,6 +216,9 @@ li.menu-item a {
     height: 3.4375rem;
     align-content: center;
 }
+.bloc-3-button a {
+    color: #FFFFFF !important;
+}
 .wp-element-button:hover {
     background-color: #C02E44 !important;
     color: #FFFFFF !important;
@@ -308,7 +318,7 @@ li.menu-item a {
 }
 /* Formulaire de contact */
 .meet-form-bloc-colonn {
-    height: 60.25rem;
+    min-height: 60.25rem;
 }
 .meet-form-title {
     margin-top: 4.12rem !important;
@@ -318,23 +328,37 @@ li.menu-item a {
     position: absolute;
     left: 36.66%;
     top: 56%;
-    height: 38.31rem !important;
+    min-height: 38.31rem !important;
     z-index: 1;
 }
 .meet-form p {
     font-family: 'Syne', sans-serif;
+    max-width: 23.94rem !important;
     margin-bottom: 1.37rem;
+}
+.meet-form.invalid {
+    max-width: 23.94rem !important;
+}
+.page-id-22 .wpcf7-response-output {
+    background-color: #C02E44;
+    color: #FFFFFF !important;
+    border-color: #C02E44 !important;
+    border-radius: 5px;
+    position: absolute;
+    left: -13rem;
+    min-width: 50rem !important;
+    margin: 0 !important;
 }
 #wpcf7-f5-p22-o1 input[type="text"],
 #wpcf7-f5-p22-o1 input[type="email"] {
     width: 24rem;
-    height: 4.45rem;
+    max-height: 4.45rem !important;
     border-radius: 7px;
     margin-top: 0.81rem;
 }
 #wpcf7-f5-p22-o1 textarea {
     width: 24rem;
-    height: 11.55rem;
+    max-height: 17.12rem !important;
     border-radius: 7px;
     margin-top: 0.81rem;
 }
@@ -381,12 +405,11 @@ li.menu-item a {
 .meet-form-plant {
     position: absolute;
     z-index: 0;
-    top: 76.5%;
+    top: 78.75%;
     left: 30.7%;
 }
-.wp-image-63 {
-    height: 8.18rem !important;
-    margin-top: 3.19rem;
+.meet-foot {
+    height: 8.18rem;
 }
 /*Page Commander */
 .page-id-24 p {
