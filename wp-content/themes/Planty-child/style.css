@@ -402,11 +402,15 @@ li.menu-item a {
     width: 100%;
     gap: 0;
 }
-.command-line {
+.command-lineh1,
+.command-lineh2 {
     width: 53.8rem;
     border: 0;
     height: 1px;
     color: #FFFFFF;
+}
+.command-lineh2 {
+    margin-top: 6rem !important;
 }
 .command-title {
     width: 42.5rem;
@@ -424,49 +428,50 @@ li.menu-item a {
 }
 .command-bloc-2 {
     width: 53.75rem !important;
-    margin-bottom: 2.5rem !important;
+    margin-bottom: 0.92rem !important;
 }
 .command-bloc-3 {
     width: 53.75rem !important;
     padding-top: 3.31rem;
 }
-/* Qté boissons à commander */
-.custom-input {
-    width: 12.06rem;
-}
-.wpcf7 input.command-qte-numb {
-    width: 5.041rem;
-    margin-right: 0.916rem !important;
-    border-radius: 5px;
-}
-.wpcf7 .button-ok {
-    width: 6.105rem;
-    background-color: #E0B9B4;
-    border-radius: 5px;
-}
-.wpcf7 .button-ok:hover {
-    background-color: #C02E44;
-    color: #FFFFFF;
-}
-input[type="number"]::-webkit-outer-spin-button,
-input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: spin-button;
-    opacity: 1;
-    display: inline-block;
-    visibility: visible;
-}
 /* Formulaire Page commander v2 */
 .champs-de-saisie {
+    width: 53.75rem !important;
+    position: absolute;
+    top: 33.75rem;
     display: flex !important;
     flex-direction: row !important;
+    justify-content: center;
 }
-.button-ok1,
-.button-ok2,
-.button-ok3,
-.button-ok4 {
-    width: 6.105rem !important;
-    background-color: #E0B9B4 !important;
-    border-radius: 5px !important;
+.number-input1,
+.number-input2,
+.number-input3,
+.number-input4 {
+    width: 2.4375rem !important;
+}
+.number-input1 {
+    margin-right: 11.25rem;
+    margin-left: 4.75rem;
+}
+.number-input2 {
+    margin-right: 11.69rem;
+}
+.number-input3 {
+    margin-right: 11.75rem;
+}
+.number-input4 {
+    margin-right: 4.56rem;
+}
+.command-qte-numb1,
+.command-qte-numb2,
+.command-qte-numb3,
+.command-qte-numb4 {
+    width: 2.4375rem;
+    height: 3.5rem;
+    text-align: center !important;
+    padding: 0 !important;
+    margin-top: 1rem;
+    margin-bottom: 2.44rem;
 }
 .command-form {
     width: 53.75rem;
@@ -509,10 +514,10 @@ input[type="number"]::-webkit-inner-spin-button {
 .command-form-line {
     position: absolute;
     z-index: 1;
-    top: 43.75rem;
+    top: 44rem;
     left: 50%;
 }
-.command-form .button-command {
+.button-command {
     height: 3.43rem !important;
     width: 12.38rem !important;
     margin-top: 0.87rem !important;
@@ -524,6 +529,12 @@ input[type="number"]::-webkit-inner-spin-button {
 .command-form input {
     font-family: 'Syne', sans-serif !important;
     font-size: 15px !important;
+}
+/* Masque les boutons d'incrémentation/de décrémentation */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 /* Format laptop */
 @media (max-width: 1024px) {
