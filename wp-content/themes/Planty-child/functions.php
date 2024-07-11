@@ -10,7 +10,7 @@ function theme_enqueue_styles ()
 
 /* Ajout de la police Syne sur la page */
 function ajouter_police_syne(){
-    wp_enqueue_style('google-fonts-syne', 'https://fonts.googleapis.com/css2?family=Syne:wght@400;800&display=swap', false);
+    wp_enqueue_style('google-fonts-syne', 'https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap', false);
 }
 add_action('wp_enqueue_scripts', 'ajouter_police_syne');
 
