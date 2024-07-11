@@ -759,26 +759,21 @@ input[type=number]::-webkit-outer-spin-button {
         height: 18.69rem;
     }
     .home-bloc-3 {
-        height: 47.06rem;
+        height: 53rem !important;
     }
-    .page-id-20 .wp-image-160 {
-        height: 14rem;
-    }
-    .page-id-20 .wp-image-161 {
-        height: 14rem;
-    }
-    .page-id-20 .wp-image-162 {
-        height: 14rem;
-    }
-    .page-id-20 .wp-image-163 {
+    .bloc-3-row1 {
         height: 14rem;
     }
     .bloc-3-button {
         margin-top: 1rem !important;
     }
     .home-bloc-4 {
-        width: 1024px;
+        width: 100%;
         height: 30rem;
+    }
+    .bloc-4-bloc {
+        width: 100%;
+        gap: 7rem;
     }
     .bloc-4-title {
         margin-top: 1.5rem !important;
