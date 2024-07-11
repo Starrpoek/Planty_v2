@@ -243,11 +243,13 @@ input[type=number]::-webkit-outer-spin-button {
     width: 51.06rem;
     height: 16.44rem;
     margin-bottom: 2.5rem !important;
+    gap: 1.875rem !important;
 }
 .bloc-3-row2 {
     width: 51.06rem;
     height: 16.44rem;
     padding: 0;
+    gap: 1.875rem !important;
 }
 .p-fraise,
 .p-pamplemousse,
@@ -812,6 +814,15 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Meet                                                            # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.meet-form {
+    left: 33%;
+}
+.meet-form-plant {
+    left: 24.75%;
+}
+.meet-foot {
+    height: 5.875rem;
+}
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
 /* #                                                 Page Command                                                         # */
@@ -1216,9 +1227,6 @@ input[type=number]::-webkit-outer-spin-button {
     .bloc-4-vero-title,
     .bloc-4-marc-title {
         font-size: 18px !important;
-    }
-    .home-foot {
-        width: 20rem;
     }
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
