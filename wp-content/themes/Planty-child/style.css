@@ -247,6 +247,7 @@ input[type=number]::-webkit-outer-spin-button {
 .bloc-3-row2 {
     width: 51.06rem;
     height: 16.44rem;
+    padding: 0;
 }
 .p-fraise,
 .p-pamplemousse,
@@ -734,8 +735,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Home                                                            # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
-    .page-id-20 {
-    }
     .home-bloc-1 {
         height: 45.75rem
     }
@@ -912,10 +911,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                    Page Home                                                         # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
-    .page-id-20 body {
-    }
-    .page-id-20 .site-content {
-    }
     .main-nav {
         width: 100%;
         margin-left: 6rem !important;
@@ -1056,6 +1051,10 @@ input[type=number]::-webkit-outer-spin-button {
     .page-id-20 {
         height: 172rem !important;
     }
+    .main-nav {
+        width: 100%;
+        margin-left: 4.5rem !important;
+    }
     .bloc-1-title {
         width: 23rem;
         font-size: 20px !important;
@@ -1083,6 +1082,12 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .bloc-2-p {
         width: 23rem;
+    }
+    .row1-fraise,
+    .row1-pamplemousse,
+    .row2-framboise,
+    .row2-citron {
+        width: 22.5rem !important;
     }
     .home-bloc-4 {
         width: 23rem;
@@ -1126,24 +1131,22 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
     .main-nav {
+        width: 100% !important;
         background-color: #ECE2DA !important;
-        opacity: 80% !important;
-        margin-left: 1rem;
-        margin-right: 0.85rem;
+        opacity: 95% !important;
+        margin: 0 1rem 0 1rem !important;
        }
        .menu-item-38 a,
        .menu-item-39 a {
         padding-left: 2rem;
         margin-right: 0 !important;
+        margin-left: 2.5rem !important;
        }
        .menu-item-37 {
        margin-left: 2rem;
        }
     .page-id-20 {
         height: 172rem !important;
-    }
-    .page-id-20 p {
-        font-size: 14px !important;
     }
     .bloc-1-title {
         width: 19rem;
@@ -1174,8 +1177,9 @@ input[type=number]::-webkit-outer-spin-button {
         width: 20rem;
     }
     .bloc-2-title {
-        font-size: 18px !important;
+        font-size: 20px !important;
         margin-top: 9rem !important;
+        margin-bottom: 1rem !important;
     }
     .bloc-2-p {
         width: 18rem;
@@ -1185,6 +1189,18 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .bloc-3-title {
         font-size: 18px !important;
+    }
+    .row1-fraise,
+    .row1-pamplemousse,
+    .row2-framboise,
+    .row2-citron {
+        width: 20rem !important;
+    }
+    .p-fraise,
+    .p-pamplemousse,
+    .p-framboise,
+    .p-citron {
+        font-size: 30px !important;
     }
     .home-bloc-4 {
         width: 20rem;
@@ -1203,18 +1219,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .home-foot {
         width: 20rem;
-    }
-    .page-id-20 .wp-image-160 {
-        width: 18rem;
-    }
-    .page-id-20 .wp-image-161 {
-        width: 18rem;
-    }
-    .page-id-20 .wp-image-162 {
-        width: 18rem;
-    }
-    .page-id-20 .wp-image-163 {
-        width: 18rem;
     }
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
