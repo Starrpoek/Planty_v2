@@ -209,13 +209,23 @@ li.menu-item a {
     margin-bottom: 3rem !important;
 }
 .bloc-3-row1 {
+    width: 51.06rem;
+    height: 16.44rem;
     margin-bottom: 2.5rem !important;
 }
-.row1-fraise {
-    margin-right: 1.87rem !important;
+.bloc-3-row2 {
+    width: 51.06rem;
+    height: 16.44rem;
 }
-.row2-framboise {
-    margin-right: 1.87rem !important;
+.p-fraise,
+.p-pamplemousse,
+.p-framboise,
+.p-citron {
+    margin: 0;
+    align-items: center !important;
+    justify-content: center !important;
+    max-width: 22.375rem;
+    max-height: 7.25rem;
 }
 .bloc-3-button {
     justify-content: center;
@@ -351,9 +361,9 @@ li.menu-item a {
     max-width: 23.94rem !important;
 }
 .page-id-22 .wpcf7-response-output {
-    background-color: #C02E44;
-    color: #FFFFFF !important;
-    border-color: #C02E44 !important;
+    background-color: #FFFFFF;
+    color: #000000 !important;
+    border-color: #FFFFFF !important;
     border-radius: 5px;
     position: absolute;
     left: -13rem;
