@@ -152,7 +152,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 .page-id-20 body {
     position: relative;
-    height: 182rem;
     max-width: 90rem;
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -736,7 +735,6 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
     .page-id-20 {
-        height: 150rem !important;
     }
     .home-bloc-1 {
         height: 45.75rem
@@ -848,16 +846,11 @@ input[type=number]::-webkit-outer-spin-button {
     .menu-item-39 {
         margin-left: 4.5rem;
     }
-    .menu-item-38 a,
-    .menu-item-39 a {
-    }
     .menu-item-38:hover {
         background-color: #DC9F96 !important;
     }
     .menu-item-39:hover {
         background-color: #DC9F96 !important;
-    }
-    .menu-item-37 {
     }
     .bloc-1-title {
         width: 48rem;
@@ -919,8 +912,20 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                    Page Home                                                         # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
-    .page-id-20 {
-        height: 160rem !important;
+    .page-id-20 body {
+    }
+    .page-id-20 .site-content {
+    }
+    .main-nav {
+        width: 100%;
+        margin-left: 6rem !important;
+        margin-right: 6rem !important;
+    }
+    .menu-item-38 {
+        margin-left: 2rem;
+    }
+    .menu-item-39 {
+        margin-left: 4.3rem;
     }
     .home-bloc-1 {
         height: 31rem;
@@ -953,6 +958,11 @@ input[type=number]::-webkit-outer-spin-button {
     .home-bloc-2 {
         width: 26rem;
         height: 20rem;
+        margin-left: 0.25rem !important;
+    }
+    .bloc-2-title {
+        font-size: 25px !important;
+        margin: 7rem 0 2.5rem 0 !important;
     }
     .bloc-2-p {
         width: 25rem;
@@ -961,35 +971,58 @@ input[type=number]::-webkit-outer-spin-button {
         height: 19.5rem !important;
     }
     .home-bloc-3 {
-        height: auto;
+        flex-direction: column !important;
+        height: 90rem !important;
+    }
+    .bloc-3-p {
+        margin: 0 0.25rem 2rem 0.25rem !important;
     }
     .bloc-3-row1,
     .bloc-3-row2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 35rem;
     }
     .row1-fraise,
     .row1-pamplemousse,
     .row2-framboise,
     .row2-citron {
-        margin: 0 !important;
+        width: 25rem !important;
+        height: 17rem !important;
+    }
+    .wp-block-cover__background {
+        display: none;
+    }
+    .p-fraise,
+    .p-pamplemousse,
+    .p-framboise,
+    .p-citron {
+        font-size: 35px !important;
     }
     .home-bloc-4 {
         width: 26rem;
-        height: 37rem;
+        height: 38rem !important;
+        gap: 3rem !important;
     }
     .bloc-4-title {
         width: 26rem;
         font-size: 20px !important;
+        margin-top: 2rem !important;
     }
     .bloc-4-bloc {
-        display: flex;
         flex-direction: column;
         width: 26rem;
+        height: 26rem;
+        gap: 1rem !important;
+    }
+    .wp-image-63 {
+        width: 26.50rem !important;
+        height: 2.32rem !important;
+        margin-left: 0.25rem;
     }
     .wp-image-458 {
-        height: 37rem !important;
+        height: 38rem !important;
     }
     .site-footer {
         top: 0rem;
