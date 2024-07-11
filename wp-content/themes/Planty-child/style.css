@@ -839,11 +839,17 @@ input[type=number]::-webkit-outer-spin-button {
     .main-nav {
      background-color: #ECE2DA !important;
      opacity: 80% !important;
+     margin-left: 16.5rem !important;
+     margin-right: 17.5rem !important;
+    }
+    .menu-item-38 {
+        margin-left: 2.7rem;
+    }
+    .menu-item-39 {
+        margin-left: 4.5rem;
     }
     .menu-item-38 a,
     .menu-item-39 a {
-        font-size: 20px !important;
-        margin-left: 3rem !important;
     }
     .menu-item-38:hover {
         background-color: #DC9F96 !important;
@@ -852,7 +858,6 @@ input[type=number]::-webkit-outer-spin-button {
         background-color: #DC9F96 !important;
     }
     .menu-item-37 {
-    margin-left: 16.25rem;
     }
     .bloc-1-title {
         width: 48rem;
@@ -861,21 +866,16 @@ input[type=number]::-webkit-outer-spin-button {
         width: 48rem;
         height: 18.69rem;
     }
-    .page-id-20 .wp-image-160 {
-        width: 20rem;
-    }
-    .page-id-20 .wp-image-161 {
-        width: 20rem;
-    }
-    .page-id-20 .wp-image-162 {
-        width: 20rem;
-    }
-    .page-id-20 .wp-image-163 {
-        width: 20rem;
+    .bloc-3-row1,
+    .bloc-3-row2 {
+        width: 95% !important;
     }
     .home-bloc-4 {
         width: 768px;
         height: 30rem;
+    }
+    .bloc-4-bloc {
+        gap: 0 !important;
     }
     .bloc-4-marc-bloctext,
     .bloc-4-fatiha-bloctext,
