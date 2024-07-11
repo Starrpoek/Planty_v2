@@ -901,6 +901,30 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                   Page Meet                                                          # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.meet-team-plant {
+    top: 38%;
+    left: 58% !important;
+}
+.wp-image-50 {
+    width: 10rem;
+    height: 10rem;
+
+}
+.meet-team-bloc-1 {
+    margin-left: 2rem !important;
+}
+.meet-team-bloc-3 {
+    margin-right: 2rem !important;
+}
+.meet-form {
+    left: 25%;
+}
+.meet-form-plant {
+    left: 14%;
+}
+.meet-foot {
+    height: 4.369rem;
+}
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
 /* #                                                   Page Command                                                       # */
