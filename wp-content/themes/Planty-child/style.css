@@ -1209,6 +1209,24 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Meet                                                            # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.meet-head-bloc-title {
+    font-size: 18px !important;
+}
+.meet-head-bloc-text {
+    width: 90% !important;
+}
+.meet-team-plant {
+    width: 7rem !important;
+    top: 79.75rem;
+}
+.meet-form {
+    width: 19.75rem;
+    left: 1.85rem;
+}
+.wpcf7-response-output {
+    max-width: 320px !important;
+    min-width: 320px !important;
+}
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
 /* #                                                 Page Command                                                         # */
