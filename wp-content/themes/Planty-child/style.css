@@ -936,39 +936,30 @@ input[type=number]::-webkit-outer-spin-button {
 /* ######################################################################################################################## */
 .command-lineh1,
 .command-lineh2 {
-    width: 765px;
+    width: 99%;
 }
 .command-subtitle {
     padding-left: 0.25rem;
 }
 .command-bloc-2 {
-    width: 760px !important;
+    width: 99% !important;
 }
 .champs-de-saisie {
     justify-content: space-between !important;
-    width: 768px !important;
+    width: 99% !important;
 }
-.number-input1 {
-    margin-left: 4.2rem;
-    margin-right: 4.2rem;
-}
-.number-input2 {
-    margin-left: 4.2rem;
-    margin-right: 4.2rem;
-}
-.number-input3 {
-    margin-left: 4.2rem;
-    margin-right: 4.2rem;
-}
+.number-input1,
+.number-input2,
+.number-input3,
 .number-input4 {
     margin-left: 4.2rem;
-    margin-left: 4.2rem;
+    margin-right: 4.2rem;
 }
 .command-bloc-3 {
-    width: 765px !important;
+    width: 99% !important;
 }
 .command-bloc-3-colonne {
-    width: 765px;
+    width: 99%;
 }
 .command-bloc-3-rangee {
     gap: 9.25rem;
@@ -977,10 +968,10 @@ input[type=number]::-webkit-outer-spin-button {
     margin-left: 0.5rem !important;
 }
 .command-form {
-    width: 765px;
+    width: 99%;
 }
 .formulaire {
-    width: 765px;
+    width: 99%;
 }
 .row {
     width: 320px !important;
@@ -1196,6 +1187,76 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Command                                                         # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.command-item {
+    flex-direction: column;
+    gap: 70px;
+}
+.img-fraise,
+.img-pamplemousse,
+.img-framboise,
+.img-citron {
+    width: 300px;
+}
+.champs-de-saisie {
+    flex-direction: column !important;
+}
+.number-input1,
+.number-input2,
+.number-input3,
+.number-input4 {
+    margin-left: 8.5rem;
+    margin-right: 8.5rem;
+}
+.number-input1 {
+    margin-top: 3rem;
+}
+.number-input2 {
+    margin-top: 7.5rem;
+}
+.number-input3 {
+    margin-top: 7.75rem;
+}
+.number-input4 {
+    margin-top: 7.75rem;
+}
+.command-bloc-3-rangee {
+    flex-direction: column;
+    position: absolute;
+    top: 95rem !important;
+    left: -4.5rem !important;
+    width: 315px !important;
+    gap: 18rem;
+}
+.command-info-title {
+    width: 157.5px !important;
+    font-size: 18px !important;
+}
+.command-adress-title {
+    width: 157.5px !important;
+    font-size: 18px !important;
+}
+.formulaire {
+    margin-top: 3rem;
+    width: 315px !important;
+}
+.row {
+    flex-direction: column;
+}
+.col {
+    width: 315px;
+}
+.col p {
+    width: 300px !important;
+}
+.button-command {
+    margin-left: 4rem !important;
+}
+.command-form-line {
+    top: 128rem !important;
+    left: 0;
+    width: 320px !important;
+    height: 1px !important;
+}
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
@@ -1432,4 +1493,8 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Command                                                         # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.command-title {
+    width: 320px;
+    font-size: 18px !important;
+}
 }
