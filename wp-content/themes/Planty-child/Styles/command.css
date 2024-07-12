@@ -1,165 +1,194 @@
-/*
- Theme Name:   Planty-child
- Theme URI:    http://example.com/planty-child/
- Description:  Thème Planty-child basé sur le thème parent de GeneratePress
- Author:       Starrpoek
- Author URI:   http://example.com
- Template:     generatepress
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         boissons énérgisantes, fraise, pamplemousse, framboise, citron
- Text-domain:  Planty
-*/
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
-/*                                                      CSS GENERAL                                                         */
+/*                                                     CSS COMMAND                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
-body {
-    width: 100%;
-    font-family: 'Syne', sans-serif;
-}
-.wp-block-group__inner-container {
-    padding: 0 !important;
-}
-/* Cacher les copyright */
-.copyright-bar {
-    display: none;
-}
-.inside-site-info {
-    display: none;
-}
-/* Cacher la zone de widget du theme parent */
-.widget-area.sidebar.is-right-sidebar#right-sidebar {
-    display: none;
-}
-/* Masque les boutons d'incrémentation/de décrémentation */
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
+.page-id-24 p {
     margin: 0;
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
-/*                                                      CSS HEADER                                                          */
+/*                                                  command-bloc-1                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
-.inside-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 5rem;
-    padding: 0;
+.command-bloc-1 {
+    gap: 0;
 }
-.site-logo {
-    margin-left: 2.71rem;
+.command-title {
+    width: 42.5rem;
+    padding: 4.31rem 0;
 }
-.menu-menu a:visited {
-    color: #000000 !important;
+.command-subtitle {
+    align-self: flex-start;
+    padding: 2.5rem 0 2.5rem 18rem;
 }
-#menu-item-37 {
-    order: 3;
-    background-color: #DC9F96;
-    width: 14.75rem;
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                  command-bloc-2                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+.command-bloc-2 {
+    width: 53.75rem !important;
+    margin-bottom: 0.92rem !important;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                  command-bloc-3                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+.command-bloc-3 {
+    width: 53.75rem !important;
+    padding-top: 3.31rem;
+}
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                  Formulaire V2                                                           */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/*                                                                                                                          */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+.champs-de-saisie {
+    width: 53.75rem !important;
+    position: absolute;
+    top: 33.75rem;
+    display: flex !important;
+    flex-direction: row !important;
     justify-content: center;
 }
-#menu-item-37 a {
-    padding: 1.90rem 3.80rem;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: normal;
+.number-input1,
+.number-input2,
+.number-input3,
+.number-input4 {
+    width: 2.4375rem !important;
+}
+.number-input1 {
+    margin-right: 11.25rem;
+    margin-left: 4.75rem;
+}
+.number-input2 {
+    margin-right: 11.69rem;
+}
+.number-input3 {
+    margin-right: 11.75rem;
+}
+.number-input4 {
+    margin-right: 4.56rem;
+}
+.command-qte-numb1,
+.command-qte-numb2,
+.command-qte-numb3,
+.command-qte-numb4 {
+    width: 2.4375rem;
+    height: 3.5rem;
+    text-align: center !important;
+    padding: 0 !important;
+    margin-top: 1rem;
+    margin-bottom: 2.44rem;
+}
+.command-form {
+    width: 53.75rem;
+}
+.command-bloc-3 p {
+    margin-bottom: 1.88rem;
+}
+.command-info-title {
+    width: 17.375rem;
+}
+.command-info-title,
+.command-adress-title {
+    height: 2.25rem;
+}
+.command-bloc-3-rangee {
+    margin-bottom: 1.81rem !important;
+    gap: 12.12rem;
+}
+.command-form p {
+    font-size: 20px !important;
+}
+.command-form .wpcf7-text {
+    width: 24rem;
+    height: 4.5rem;
+    border-radius: 0.5rem;
+    margin-top: 0.81rem;
+}
+.formulaire .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between !important;
+    gap: 5.56rem;
+}
+.formulaire .col {
+    flex: 1;
+}
+.command-form label {
+    display: block;
+    font-size: 20px !important;
+}
+.command-form-line {
+    position: absolute;
+    z-index: 1;
+    top: 44rem;
+    left: 50%;
+}
+.button-command {
+    height: 3.43rem !important;
+    width: 12.38rem !important;
+    margin-top: 0.87rem !important;
+    margin-bottom: 4rem !important;
+    margin-left: 20.75rem !important;
+    border-radius: 0.3125rem !important;
+    background-color: #E0B9B4 !important;
+}
+.button-command:hover {
+    background-color: #C02E44 !important;
     color: #FFFFFF !important;
 }
-#menu-item-37:hover {
-    background-color: #C02E44;
+.wpcf7-not-valid-tip {
+    color: #FFFFFF;
 }
-#menu-item-38 {
-    order: 1;
+.command-form input {
+    font-family: 'Syne', sans-serif !important;
+    font-size: 15px !important;
 }
-#menu-item-38 a {
-    margin-right: 3rem;
-    font-size: 16px;
-    font-weight: 400;
-}
-.menu-item-39 {
-    order: 2;
-    max-width: 9.37rem !important;
-}
-.menu-item-39 a {
-    margin-right: 4.01rem;
-    font-size: 16px;
-    font-weight: 400;
-}
-#menu-item-38 a:hover,
-.menu-item-39 a:hover {
-    font-size: 13px;
-    font-weight: 700;
-    color: #000000 !important;
-    padding-right: 19px;
-}
-#menu-item-38 a:visited,
-.menu-item-39 a:visited {
-    color: #000000 !important;
-}
-.user-logged-out .menu-item-39 {
-    display: none;
-}
-/* ------------------------------------------------------------------------------------------------------------------------ */
-/*                                                                                                                          */
-/*                                                                                                                          */
-/*                                                                                                                          */
-/*                                                      CSS FOOTER                                                          */
-/*                                                                                                                          */
-/*                                                                                                                          */
-/*                                                                                                                          */
-/* ------------------------------------------------------------------------------------------------------------------------ */
-.site-footer {
-    height: 3.75rem;
-    background-color: #FFFFFF;
+.wpcf7-response-output {
     text-align: center;
-    position: relative;
-    bottom: 0;
 }
-.site-footer .footer-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-.site-footer p {
-    margin: 0;
-}
-.site-footer a {
-    color: #000000;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-}
-
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
-/*                                                  CSS RESPONSIVE                                                          */
+/*                                                       Médias                                                             */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
-/* Responsive */
-@media (min-width: 1440px) {
-    .home-body, .home-bloc-1, .home-bloc-2, .home-bloc-3, .home-bloc-4 {
-        max-width: 1440px;
-        margin: 0 auto;
-    }
+.command-lineh1,
+.command-lineh2 {
+    width: 53.8rem;
+    border: 0;
+    height: 1px;
+    color: #FFFFFF;
+}
+.command-lineh2 {
+    margin-top: 6rem !important;
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
@@ -171,10 +200,10 @@ input[type=number]::-webkit-outer-spin-button {
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 1024px) {
-    .site-footer {
-        top: 0rem;
+    .command-subtitle {
+        padding-left: 5rem;
     }
-}
+    }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
 /*                                                                                                                          */
@@ -185,26 +214,59 @@ input[type=number]::-webkit-outer-spin-button {
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 768px) {
-    .main-nav {
-        background-color: #ECE2DA !important;
-        opacity: 80% !important;
-        margin-left: 16.5rem !important;
-        margin-right: 16.5rem !important;
-        
-       }
-       .menu-item-38 {
-           margin-left: 2.7rem;
-       }
-       .menu-item-39 {
-           margin-left: 4.5rem;
-       }
-       #menu-item-38 a:hover,
-       .menu-item-39 a:hover {
-       font-size: 16px;
-       font-weight: 400;
-       color: #000000 !important;
-       padding-right: 0px;
-   }
+    .command-lineh1,
+.command-lineh2 {
+    width: 99%;
+}
+.command-subtitle {
+    padding-left: 0.25rem;
+}
+.command-bloc-2 {
+    width: 99% !important;
+}
+.champs-de-saisie {
+    justify-content: space-between !important;
+    width: 99% !important;
+}
+.number-input1,
+.number-input2,
+.number-input3,
+.number-input4 {
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
+}
+.command-bloc-3 {
+    width: 99% !important;
+}
+.command-bloc-3-colonne {
+    width: 99%;
+}
+.command-bloc-3-rangee {
+    gap: 9.25rem;
+}
+.command-info-title {
+    margin-left: 0.5rem !important;
+}
+.command-form {
+    width: 99%;
+}
+.formulaire {
+    width: 99%;
+}
+.row {
+    width: 320px !important;
+    flex-wrap: nowrap !important;
+}
+.col p {
+    margin-left: 0.5rem;
+    width: 320px !important;
+}
+.button-command {
+    margin-left: 18rem !important;
+}
+.wpcf7-response-output {
+    margin-left: 4rem !important;
+}
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
@@ -216,22 +278,95 @@ input[type=number]::-webkit-outer-spin-button {
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 475px) {
-    .main-nav {
+    .command-title {
         width: 100%;
-        margin-left: 6rem !important;
-        margin-right: 6rem !important;
+        font-size: 20px !important;
     }
-    .site-logo {
-        margin-left: 1rem !important;
+    .command-subtitle {
+        margin-left: 4rem !important;
     }
-    .menu-item-38 {
-        margin-left: 2rem;
+    .command-item {
+        flex-direction: column;
+        gap: 70px;
     }
-    .menu-item-39 {
-        margin-left: 4.3rem;
+    .img-fraise,
+    .img-pamplemousse,
+    .img-framboise,
+    .img-citron {
+        width: 300px;
     }
-    .site-footer {
-        top: 0rem;
+    .champs-de-saisie {
+        flex-direction: column !important;
+    }
+    .number-input1,
+    .number-input2,
+    .number-input3,
+    .number-input4 {
+        margin-left: 12rem;
+        margin-right: 8.5rem;
+    }
+    .number-input1 {
+        margin-top: 3rem;
+    }
+    .number-input2 {
+        margin-top: 7.5rem;
+    }
+    .number-input3 {
+        margin-top: 7.75rem;
+    }
+    .number-input4 {
+        margin-top: 7.75rem;
+    }
+    .command-bloc-3-rangee {
+        flex-direction: column;
+        position: absolute;
+        top: 95rem !important;
+        left: -4.5rem !important;
+        width: 315px !important;
+        gap: 18rem;
+    }
+    .command-info-title {
+        width: 157.5px !important;
+        font-size: 22px !important;
+    }
+    .command-adress-title {
+        width: 157.5px !important;
+        font-size: 22px !important;
+    }
+    .command-form {
+        width: 422px !important;
+    }
+    .formulaire {
+        margin-top: 3rem;
+        width: 95% !important;
+    }
+    .row {
+        flex-direction: column;
+        width: 420px !important;
+    }
+    .col {
+        width: 100%;
+    }
+    .col p {
+        width: 95% !important;
+    }
+    .button-command {
+        margin-left: 7.5rem !important;
+    }
+    .command-form-line {
+        top: 129rem !important;
+        left: 0;
+        width: 424px !important;
+        height: 1px !important;
+    }
+    .wpcf7-not-valid-tip {
+        font-size: 10px !important;
+    }
+    .wpcf7-response-output {
+        width: 420px !important;
+        margin-left: 0rem !important;
+        font-size: 12px !important;
+        text-align: center;
     }
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -244,9 +379,32 @@ input[type=number]::-webkit-outer-spin-button {
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 375px) {
-    .main-nav {
-        width: 100%;
-        margin-left: 4.5rem !important;
+    .command-subtitle {
+        margin-left: 2.5rem !important;
+    }
+    .number-input1,
+    .number-input2,
+    .number-input3,
+    .number-input4 {
+        margin-left: 10rem;
+        margin-right: 8.5rem;
+    }
+    .command-form {
+        width: 370px !important;
+    }
+    .row {
+        width: 370px !important;
+    }
+    .command-form-line {
+        width: 99% !important;
+    }
+    .button-command {
+        margin-left: 6rem !important;
+    }
+    .page-id-24 .wpcf7-response-output {
+        width: 280px !important;
+        margin-left: 3rem !important;
+        margin-right: 3rem !important;
     }
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -259,19 +417,39 @@ input[type=number]::-webkit-outer-spin-button {
 /*                                                                                                                          */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 @media (max-width: 320px) {
-    .main-nav {
-        width: 100% !important;
-        background-color: #ECE2DA !important;
-        opacity: 95% !important;
-        margin: 0 1rem 0 1rem !important;
-       }
-       .menu-item-38 a,
-       .menu-item-39 a {
-        padding-left: 2rem;
-        margin-right: 0 !important;
-        margin-left: 2.5rem !important;
-       }
-       .menu-item-37 {
-       margin-left: 2rem;
-       }
+    .command-title {
+        width: 320px;
+        font-size: 18px !important;
+    }
+    .champs-de-saisie {
+        top: 36rem !important;
+    }
+    .number-input1,
+    .number-input2,
+    .number-input3,
+    .number-input4 {
+        margin-left: 8.5rem;
+        margin-right: 8.5rem;
+        
+    }
+    .command-bloc-3-rangee {
+        top: 97rem !important;
+    }
+    .command-form {
+        width: 318px !important;
+    }
+    .row {
+        width: 318px !important;
+    }
+    .command-form-line {
+        top: 131rem !important;
+    }
+    .button-command {
+        margin-left: 4.5rem !important;
+    }
+    .page-id-24 .wpcf7-response-output {
+        width: 280px !important;
+        margin-left: 1.25rem !important;
+        margin-right: 1.25rem !important;
+    }
 }

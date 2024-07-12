@@ -2,10 +2,24 @@
 
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
-function theme_enqueue_styles ()
-{
+function theme_enqueue_styles() {
+    // Charger le style parent
     wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+    // Charger le style enfant
     wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', array('parent-style'), wp_get_theme()->get('Version'));
+
+    // Charger le style spécifique pour la page d'accueil
+    if (is_front_page()) {
+        wp_enqueue_style('home-style', get_stylesheet_directory_uri() . '/Styles/home.css');
+    }
+    // Charger le style spécifique pour la page "Nous Rencontrer"
+    elseif (is_page('nous-rencontrer')) {
+        wp_enqueue_style('meet-style', get_stylesheet_directory_uri() . '/Styles/meet.css');
+    }
+    // Charger le style spécifique pour la page "Commander"
+    elseif (is_page('commander')) {
+        wp_enqueue_style('command-style', get_stylesheet_directory_uri() . '/Styles/command.css');
+    }
 }
 
 /* Ajout de la police Syne sur la page */
