@@ -828,6 +828,9 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Command                                                         # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.command-subtitle {
+    padding-left: 5rem;
+}
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
@@ -849,6 +852,7 @@ input[type=number]::-webkit-outer-spin-button {
      opacity: 80% !important;
      margin-left: 16.5rem !important;
      margin-right: 16.5rem !important;
+     
     }
     .menu-item-38 {
         margin-left: 2.7rem;
@@ -856,12 +860,13 @@ input[type=number]::-webkit-outer-spin-button {
     .menu-item-39 {
         margin-left: 4.5rem;
     }
-    .menu-item-38:hover {
-        background-color: #DC9F96 !important;
-    }
-    .menu-item-39:hover {
-        background-color: #DC9F96 !important;
-    }
+    #menu-item-38 a:hover,
+    .menu-item-39 a:hover {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000 !important;
+    padding-right: 0px;
+}
     .bloc-1-title {
         width: 48rem;
     }
@@ -929,6 +934,65 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                   Page Command                                                       # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.command-lineh1,
+.command-lineh2 {
+    width: 765px;
+}
+.command-subtitle {
+    padding-left: 0.25rem;
+}
+.command-bloc-2 {
+    width: 760px !important;
+}
+.champs-de-saisie {
+    justify-content: space-between !important;
+    width: 768px !important;
+}
+.number-input1 {
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
+}
+.number-input2 {
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
+}
+.number-input3 {
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
+}
+.number-input4 {
+    margin-left: 4.2rem;
+    margin-left: 4.2rem;
+}
+.command-bloc-3 {
+    width: 765px !important;
+}
+.command-bloc-3-colonne {
+    width: 765px;
+}
+.command-bloc-3-rangee {
+    gap: 9.25rem;
+}
+.command-info-title {
+    margin-left: 0.5rem !important;
+}
+.command-form {
+    width: 765px;
+}
+.formulaire {
+    width: 765px;
+}
+.row {
+    width: 320px !important;
+    flex-wrap: nowrap !important;
+}
+.col p {
+    margin-left: 0.5rem;
+    width: 320px !important;
+}
+.button-command {
+    margin-left: 18rem !important;
+}
 }
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /*                                                                                                                          */
@@ -1209,6 +1273,9 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Meet                                                            # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.main-nav {
+    margin-right: 4rem !important;
+}
 .meet-head-bloc-title {
     font-size: 18px !important;
 }
@@ -1218,6 +1285,9 @@ input[type=number]::-webkit-outer-spin-button {
 .meet-team-plant {
     width: 7rem !important;
     top: 79.75rem;
+}
+.wp-image-330 {
+    height: 67rem !important;
 }
 .meet-form {
     width: 19.75rem;
@@ -1302,7 +1372,7 @@ input[type=number]::-webkit-outer-spin-button {
     .bloc-2-p {
         width: 18rem;
     }
-    .wp-image-330 {
+    .page-id-20 .wp-image-330 {
         height: 22rem !important;
     }
     .bloc-3-title {
@@ -1340,6 +1410,23 @@ input[type=number]::-webkit-outer-spin-button {
 /* #                                                 Page Meet                                                            # */
 /* #                                                                                                                      # */
 /* ######################################################################################################################## */
+.meet-head-bloc-title {
+    font-size: 15px !important;
+}
+.meet-head-bloc-text {
+    font-size: 13px !important;
+}
+.meet-team-title {
+    font-size: 18px !important;
+    margin-top: 12rem !important
+}
+.meet-team-plant {
+    left: 13rem !important;
+}
+.meet-form {
+    width: 310px;
+    left: 0 !important;
+}
 /* ######################################################################################################################## */
 /* #                                                                                                                      # */
 /* #                                                 Page Command                                                         # */
